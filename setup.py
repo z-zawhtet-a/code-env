@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
   long_description = fh.read()
 
 setuptools.setup(
-    name="colab_ssh",
+    name="code_env",
     version="0.3.27",
     author="Wassim Benzarti",
     author_email="m.wassim.benzarti@gmail.com",
-    description="Google colab SSH connector",
+    description="Remote Code Env",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/WassimBenzarti/colab-ssh-connector.git",
+    url="https://github.com/z-zawhtet-a/code-env.git",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
